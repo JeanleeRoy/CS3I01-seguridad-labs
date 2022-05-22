@@ -1,4 +1,5 @@
-# tail_recursion.py
+# tail_recursion: code taken from https://chrispenner.ca/posts/python-tail-recursion
+
 class Recurse(Exception):
     def __init__(self, *args, **kwargs):
         self.args = args
